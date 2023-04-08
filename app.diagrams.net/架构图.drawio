@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2023-04-08T02:49:34.375Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" version="21.1.5" etag="8c4DtkSzr3ekvhGPI4A7" type="github">
-  <diagram name="第 1 页" id="QtZjOJN1W8cEdTSNuTV6">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-04-08T02:59:14.579Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" etag="6se7Bpk2b45J306XxBeU" version="21.1.5" type="github">
+  <diagram name="系统架构图" id="QtZjOJN1W8cEdTSNuTV6">
+    <mxGraphModel dx="1050" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bB8iNQ9N5kc8MFBwWb8Y-1" value="在线音乐网站（Web/APP）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="60" width="393" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bB8iNQ9N5kc8MFBwWb8Y-2" value="Restful API（给在线音乐网站提供接口）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="180" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bB8iNQ9N5kc8MFBwWb8Y-4" value="MySQL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="400" width="157" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bB8iNQ9N5kc8MFBwWb8Y-5" value="MyBatis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="451" y="400" width="159" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bB8iNQ9N5kc8MFBwWb8Y-6" value="TomcatWebServer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="290" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bB8iNQ9N5kc8MFBwWb8Y-7" value="原始log数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="510" width="380" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
