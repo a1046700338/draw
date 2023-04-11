@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T09:42:02.861Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="0Gp2ZhAflLSqft8jXJVN" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T09:52:25.512Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="Wg5aV0ZDmoUfqWaBRgaN" version="21.1.5" type="github" pages="3">
   <diagram name="第 1 页" id="sHI8YJsipe0E9wh7OKBU">
     <mxGraphModel dx="1235" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -104,6 +104,125 @@
         <mxCell id="R3fqKOKYowmiwXjNijxY-31" value="HttpServletReponse响应" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="124" y="350" width="181" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ld9LhSKzPlibf_hFxGuD" name="前后端分离模型">
+    <mxGraphModel dx="1235" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hUnfivQi4aXzf3LPevu2-26" value="浏览器（客户端）" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="250" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-27" value="" style="whiteSpace=wrap;html=1;strokeColor=#29b6f2;" vertex="1" parent="1">
+          <mxGeometry x="700" y="150" width="230" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-28" value="" style="whiteSpace=wrap;html=1;strokeColor=#29b6f2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="150" width="230" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-30" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="267" y="246" width="216" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hUnfivQi4aXzf3LPevu2-32" target="hUnfivQi4aXzf3LPevu2-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-32" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="707" y="246" width="216" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-33" value="前端框架" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-35" value="SpringBoot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="755" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-36" value="Spring框架" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000;strokeColor=#57C1EE;" vertex="1" parent="1">
+          <mxGeometry x="263" y="520" width="750" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hUnfivQi4aXzf3LPevu2-38" target="hUnfivQi4aXzf3LPevu2-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="815" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-38" value="MySQL数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="350" width="90" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-39" value="JDBC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-40" value="JDBC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-41" value="Hibemate&lt;br&gt;MyBatis&lt;br&gt;SpringData&lt;br&gt;..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="707" y="390" width="63" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-43" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="280" as="sourcePoint" />
+            <mxPoint x="290" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-44" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="340" as="sourcePoint" />
+            <mxPoint x="170" y="340.17647058823525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-45" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="280" as="sourcePoint" />
+            <mxPoint x="680" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-46" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="340" as="sourcePoint" />
+            <mxPoint x="450" y="340.17647058823525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-49" value="HttpServletRequest请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="134" y="230" width="181" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-50" value="HttpServletReponse响应" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="134" y="360" width="181" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-52" value="后端框架" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="755" y="110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-53" value="Vue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-56" value="视图层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="285" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-57" value="模型层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="235" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-59" value="控制层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="335" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-60" value="视图层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="285" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-61" value="模型层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="235" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-62" value="控制层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="335" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hUnfivQi4aXzf3LPevu2-63" value="SpringMVC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="205" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2me-11h6yyauMC1mFG9V" name="SpringBoot框架模型">
+    <mxGraphModel dx="1050" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
